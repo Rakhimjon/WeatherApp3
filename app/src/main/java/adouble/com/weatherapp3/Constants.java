@@ -7,5 +7,6 @@ package adouble.com.weatherapp3;
 public interface Constants {
 
     String CITIES = "CITIES";
+    String TEST = "TEST";
 
 }
