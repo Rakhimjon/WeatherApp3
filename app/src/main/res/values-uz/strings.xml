@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Weather App3</string>
+    <string name="add">Qo\'shish</string>
+    <string name="add_city">Shahar qo\'shish</string>
+    <string name="no_data">Ma\'lumot yo\'q</string>
+    <string name="weather">Ob Havo</string>
+</resources>
