@@ -5,4 +5,6 @@ package adouble.com.weatherapp3;
  */
 
 public class Test {
+
+    private String Weather;
 }
