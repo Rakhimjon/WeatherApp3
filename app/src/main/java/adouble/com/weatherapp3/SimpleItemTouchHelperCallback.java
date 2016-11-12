@@ -57,6 +57,8 @@ public class SimpleItemTouchHelperCallback extends ItemTouchHelper.Callback {
 
         }
         super.onSelectedChanged(viewHolder, actionState);
+
+        //todo ItemTouchHelperViewAdapter not working ;
     }
 
     @Override
