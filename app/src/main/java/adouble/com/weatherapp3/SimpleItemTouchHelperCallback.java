@@ -55,6 +55,7 @@ public class SimpleItemTouchHelperCallback extends ItemTouchHelper.Callback {
             ItemTouchHelperViewAdapter itemViewHolder = (ItemTouchHelperViewAdapter) viewHolder;
             itemViewHolder.onItemSelected();
 
+
         }
         super.onSelectedChanged(viewHolder, actionState);
 
