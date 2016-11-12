@@ -5,7 +5,10 @@ package adouble.com.weatherapp3;
  */
 
 public class Weather {
+
     private  String textView;
+    private  String imagePath;
+
 
 
     public Weather(String textView) {
