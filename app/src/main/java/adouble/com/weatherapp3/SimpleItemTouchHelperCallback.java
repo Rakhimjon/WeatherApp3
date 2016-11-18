@@ -52,14 +52,15 @@ public class SimpleItemTouchHelperCallback extends ItemTouchHelper.Callback {
     public void onSelectedChanged(RecyclerView.ViewHolder viewHolder, int actionState) {
 
         if (actionState != ItemTouchHelper.ACTION_STATE_IDLE) {
-            ItemTouchHelperViewAdapter itemViewHolder = (ItemTouchHelperViewAdapter) viewHolder;
+            ItemTouchHelperViewAdapter itemViewHolder;
+            itemViewHolder = (ItemTouchHelperViewAdapter) viewHolder;
             itemViewHolder.onItemSelected();
 
 
         }
         super.onSelectedChanged(viewHolder, actionState);
 
-        //todo ItemTouchHelperViewAdapter not working ;
+        //todo ItemTouchHelperViewAdapter don't working ;
     }
 
     @Override

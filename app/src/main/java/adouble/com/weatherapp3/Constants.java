@@ -8,5 +8,6 @@ public interface Constants {
 
     String CITIES = "CITIES";
     String TEST = "TEST";
+    String CALL="CAAL";
 
 }
