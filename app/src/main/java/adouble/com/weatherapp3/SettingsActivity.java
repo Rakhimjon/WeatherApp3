@@ -83,7 +83,7 @@ public class SettingsActivity extends AppCompatActivity implements OnCustomerLis
                 Set<String> set = new HashSet<String>();
                 set.addAll(arr);
 
-                sharedPreferences.edit().putStringSet(Constants.CITIES, set).commit();
+                sharedPreferences.edit().putStringSet(Constants.CITIES, set).apply();
                 setResult(RESULT_OK);
 
                 finish();
